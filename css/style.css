@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Dana';
+    src: url('../fonts/dana-light.woff2') format('woff2');
+    font-weight: 300;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Dana';
+    src: url('../fonts/dana-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Dana';
+    src: url('../fonts/dana-medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Dana';
+    src: url('../fonts/dana-demibold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Dana';
+    src: url('../fonts/dana-bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Dana';
+    src: url('../fonts/dana-extrabold.woff2') format('woff2');
+    font-weight: 800;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Dana';
+    src: url('../fonts/dana-black.woff2') format('woff2');
+    font-weight: 900;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* پالت رنگی */
+:root {
+    --green: #92FE9D;
+    --cyan: #00C9FF;
+    --dark: #0f0f0f;
+    --light: #ffffff;
+}
+
+body {
+    font-family: 'Dana', sans-serif;
+    background: #92FE9D;
+    color: #0f0f0f;
+    direction: rtl;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #00C9FF;
+    padding: 30px;
+    color: #000;
+    
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+nav ul {
+    gap: 40px;
+    margin-top: 20px;
+    padding: 0;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    color: #92FE9D;
+    text-decoration: underline;
+}
+
+main {
+    padding: 40px;
+}
+
+main a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main a:hover {
+    color: #00C9FF;
+    text-decoration: underline;
+}
+
+.profile-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 6px solid #00C9FF;
+}
+
+footer {
+    background: #00C9FF;
+    color:#0f0f0f;
+    text-align: center;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #000;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #92FE9D;
+    text-decoration: underline;
+}
