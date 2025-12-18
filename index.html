@@ -9,12 +9,29 @@
     <!-- Color is used in favicon #00C9FF -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+<nav class="mobile-menu" id="mobileMenu">
+    <a href="index.html" class="active">خانه</a>
+    <a href="about.html">درباره من</a>
+    <a href="portfolio.html">نمونه کارها</a>
+    <a href="contact.html">تماس با من</a>
+</nav>
 <body>
     <header class="site-header">
         <div class="container">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+            <label for="menu-toggle" class="hamburger">
+                <svg viewBox="0 0 100 100" width="40" height="40">
+                    <line x1="20" y1="30" x2="80" y2="30" stroke="#0f0f0f" stroke-width="8" stroke-linecap="round" class="line1"/>
+                    <line x1="20" y1="50" x2="80" y2="50" stroke="#0f0f0f" stroke-width="8" stroke-linecap="round" class="line2"/>
+                    <line x1="20" y1="70" x2="80" y2="70" stroke="#0f0f0f" stroke-width="8" stroke-linecap="round" class="line3"/>
+                </svg>
+            </label>
+
             <h4>به صفحه</h4>
             <h1 class="site-logo">امیرحسین رضایی</h1>
             <h4>خوش آمدید.</h4>
+
             <nav class="main-nav">
                 <ul>
                     <li><a href="index.html" class="active">خانه</a></li>
@@ -25,6 +42,15 @@
             </nav>
         </div>
     </header>
+
+    <nav class="mobile-menu">
+        <ul>
+            <li><a href="index.html" class="active">خانه</a></li>
+            <li><a href="about.html">درباره من</a></li>
+            <li><a href="portfolio.html">نمونه کارها</a></li>
+            <li><a href="contact.html">تماس با من</a></li>
+        </ul>
+    </nav>
     <main>
         <figure class="profile-image">
             <img src="images/profile.png" alt="عکس پروفایل من">
