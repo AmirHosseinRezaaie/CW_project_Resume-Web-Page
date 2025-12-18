@@ -442,6 +442,27 @@ a.eitaa:hover img   { filter: none; }
     .social-links img { width: 36px; height: 36px; }
 }
 
+@media (max-width: 460px) {
+    main {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .portfolio-list {
+        padding: 12px;
+        overflow: hidden;
+    }
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    .portfolio-card img {
+        height: 120px;
+    }
+    .product-info {
+        padding: 10px 12px;
+    }
+}
+
 .container {
     max-width: var(--container-width);
     margin: 0 auto;
