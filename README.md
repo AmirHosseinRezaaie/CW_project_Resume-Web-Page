@@ -1,16 +1,9 @@
-# وب‌سایت رزومه شخصی (Personal Resume Website)
-
-![Preview](images/preview.jpg) <!-- اگر تصویر پیش‌نمایش داری، مسیرش رو درست کن، иначе حذف کن -->
+# وب‌سایت رزومه شخصی (Personal Resume Website
 
 این پروژه یک وب‌سایت رزومه و پرتفولیوی شخصی چندصفحه‌ای است که با **HTML** و **CSS** خالص ساخته شده. هدف اصلی، تمرین قابلیت‌های پیشرفته CSS مانند Flexbox، Grid، طراحی واکنش‌گرا (Responsive)، افکت‌های visual و مدیریت overflow بوده.
 
 ### لینک زنده (Live Demo)
-- سایت هنوز روی GitHub Pages deploy نشده. برای فعال کردن:
-  - به Settings > Pages برو
-  - Branch: main و Folder: / (root) رو انتخاب کن
-  - بعد از deploy، لینک چیزی مثل این می‌شه: https://amirhosseinrezaaie.github.io/CW_project_Resume-Web-Page/
-
-(برای تست لوکال: فولدر رو باز کن و index.html رو با مرورگر اجرا کن)
+https://amirhosseinrezaaie.github.io/CW_project_Resume-Web-Page/
 
 ### ویژگی‌های اصلی پروژه
 - **طراحی واکنش‌گرا (Responsive Design)**: سایت در موبایل، تبلت و دسکتاپ به خوبی نمایش داده می‌شه (با Media Queries).
@@ -31,5 +24,3 @@
 - طراحی وب: HTML, CSS
 - ابزارهای طراحی: Figma
 - مهندسی: Matlab
-
-### ساختار فایل‌ها
